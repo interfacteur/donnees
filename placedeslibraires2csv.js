@@ -2,7 +2,14 @@
 // préparer une extraction avec l'extension ExportToCSV pour Firefox
 // cf. https://addons.mozilla.org/fr/firefox/addon/export-to-csv/
 
-// éventuellement trier par code postal
+// éventuellement trier auparavant par code postal
+
+
+/*
+	pour agir via les favoris - signets :
+	javascript:instructions;void(dernière instruction);
+*/
+
 
 // tri simple :
 $("#TABLESHOP td").each(function() { $(this).html($(this).text()); }); $("#TABLESHOP tr :first-child, #TABLESHOP tr :last-child").remove(); $("#TABLESHOP tr :last-child").remove();
