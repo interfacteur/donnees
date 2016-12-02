@@ -7,5 +7,5 @@
 // bib
 javascript:$("#holdings_container_desktop%20th,#holdings_container_desktop%20td").each(function(){$(this).html($(this).text().replace(/\s{2,}/g,"%20"));$(this).text($(this).text().replace(/^\s|\s$/g,""));});$(".indicator.available").text("dispo").attr("class","");$(".indicator.all-loaned").text("prêtés").attr("class","");void($(".indicator.no-existing").text("aucun").attr("class",""));
 
-// Gandi
+// Gandi - to do : formatage final
 javascript:void($(".gtable th, .gtable td").each(function(){$(this).html($(this).text());}));
